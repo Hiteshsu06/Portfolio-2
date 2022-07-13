@@ -1,0 +1,25 @@
+.contact_main{
+    margin-top: 150px;
+    margin-left: 420px;
+    border-style:solid ;
+    width: 500px;
+    padding: 20px 20px;
+    border-color: aliceblue;
+}
+.contact-form1{
+    width:400px;
+    border-style: none;
+    margin-bottom: 5px;
+    padding-bottom: 15px;
+}
+.contact-form2{
+    width:400px;
+    height: 100px;
+    margin-bottom: 10px;
+    border-style: none;
+}
+.contact-form3{
+    border-color: #ffdf6c;
+    margin-left: 190px;
+    font-size: 11px;
+}

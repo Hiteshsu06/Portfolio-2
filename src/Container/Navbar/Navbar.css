@@ -1,0 +1,48 @@
+*{margin: 0;
+}
+
+.Topbar{
+    display:flex;
+}
+.Sidebar{
+    display: flex;
+    height: 503px;
+
+}
+.Sidebar_left{
+    background-color: #202020;
+    color:#707070;
+    width: 40px;
+    text-align: center;
+    display: block;
+    padding-top: 300px;   
+}
+
+.Sidebar_left * {
+    margin-bottom: 5px;
+  }
+
+.Sidebar_left :hover{
+   color:white;
+}
+
+.Navbar ul{
+    display: flex;
+    background-color: #202020;
+    height: 62px;  
+    align-items: center;
+    gap: 60px;
+    padding-left: 100px;
+}
+
+.Navbar ul li{
+    list-style: none;
+}
+
+.Navbar ul li a{
+    color:#707070;
+    text-decoration: none;
+}
+.Navbar :hover{
+    color:white;
+}

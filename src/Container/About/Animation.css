@@ -1,0 +1,83 @@
+.skill{
+    list-style: none;
+    color:aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 100px;
+    margin-left: 55px;
+    position: relative;
+    margin-right: 55px;
+}
+.bar{
+    background-color: rgba(250, 250, 250, 0.089);
+    display:flex;
+    height: 20px;
+    border:1px solid rgba(0,0,0,0.3);
+    border-radius:10px;
+    position: relative;
+}
+.bar_left{
+    border-color: white;
+    background-color: antiquewhite;  
+    height: 20px; 
+    border-radius:10px;
+}
+.bar_right{
+    right:2px;
+    position: absolute;
+}
+.bar_left1{
+    height: 20px;
+    border-radius:10px;
+    background-color: antiquewhite;
+    border-color: white;
+    width: 90%;
+    position: absolute;
+    animation-name: width1;
+    animation-duration: 3s;
+}
+@keyframes width1{
+    from{width:0%;}
+    to{width:90%}
+}
+.bar_left2{
+    height: 20px;
+    border-radius:10px;
+    background-color: antiquewhite;
+    border-color: white;
+    width: 80%;
+    position: absolute;
+    animation-name: width2;
+    animation-duration: 3s;
+}
+@keyframes width2{
+    from{width:0%;}
+    to{width:80%}
+}
+.bar_left3{
+    height: 20px;
+    border-radius:10px;
+    background-color: antiquewhite;
+    border-color: white;
+    width: 60%;
+    position: absolute;
+    animation-name: width3;
+    animation-duration: 3s;
+}
+@keyframes width3{
+    from{width:0%;}
+    to{width:60%}
+}
+.bar_left4{
+    height: 20px;
+    border-radius:10px;
+    background-color: antiquewhite;
+    border-color: white;
+    width: 70%;
+    position: absolute;
+    animation-name: width4;
+    animation-duration: 3s;
+}
+@keyframes width4{
+    from{width:0%;}
+    to{width:90%}
+}

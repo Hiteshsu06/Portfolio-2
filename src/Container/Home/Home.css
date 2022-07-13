@@ -1,0 +1,63 @@
+.Home_main{
+    display: flex;
+    color:aliceblue;
+    
+    
+}
+.Home_main-1{
+    background-color: #202020;
+    padding-top: 140px;
+    padding-left: 100px;
+    height: 363px;
+    width:500px
+    
+}
+
+.Home_main_intro{
+    font-size:30px ;
+}
+.Home_main-1-1-1{
+    font-size:40px ;
+    font-weight: bold;
+}
+.Home_main-1-1-2{
+    font-size:30px ;
+}
+.Home_main-1-1:hover{
+    color:#ffdf6c;
+}
+.Home_para{
+    font-family:'Tai Heritage Pro', serif;
+    font-size: 20px;
+}
+.Home_btn{
+    color:#ffdf6c;
+    margin-top: 30px;
+    font-size: 15px;
+    background-color: #202020;
+    border-color:#ffdf6c;
+    padding: 10px 40px;
+    margin-left: 150px;
+    border-radius: 5px;
+    border-width: 2px;
+    border-style:outset;
+}
+.Home_main-2{
+    background-color: #202020;
+    width:726px;
+    height:503px;
+}
+.Home_btn:hover{
+    cursor: pointer;
+    transform: scale(1.02);
+    border-color: white;
+    color: white;
+    
+}
+.Home_img:hover{
+    transform: translatey(20px);
+    transition:4s;
+}
+.Home_img{
+    transition:4s;
+}

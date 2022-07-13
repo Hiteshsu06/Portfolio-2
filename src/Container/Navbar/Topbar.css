@@ -1,0 +1,31 @@
+.Topbar{
+    background-color: #202020;
+    color: #707070;
+    height: 60px;
+    position: relative;
+    display: flex;
+    gap:500px;
+    width:100%;
+    font-family: Krona One;
+    align-items: center; 
+}
+.title{
+    position: absolute;
+    align-items: center;
+    font-size: 35px;
+    padding-left: 10px;
+}
+
+.mail{
+  position: absolute;
+  right:20px;
+  font-size: 30px;
+  color:#202020;
+ 
+}
+.mail :hover{
+    color:white;
+}
+.title:hover{
+    color:white;
+}
